@@ -1,0 +1,97 @@
+{
+    "name": "Example Color Scheme",
+    "globals":
+    {
+        "background": "rgb(50, 50, 50)",
+        "foreground": "rgb(200, 200, 200)",
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "rgb(200, 200, 200)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "rgb(240, 150, 200)",
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "rgb(250, 150, 90)",
+            "font_style": "italic",
+        },
+        {
+            "name": "Operator",
+            "scope": "keyword.operator",
+            "foreground": "rgb(250, 150, 90)",
+            "font_style": "italic",
+        },
+        {
+            "name": "StorageModifier",
+            "scope": "storage.modifier",
+            "foreground": "rgb(50, 150, 90)",
+            "font_style": "italic",
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.separator",
+            "foreground": "rgb(250, 150, 90)",
+            "font_style": "italic",
+        },
+        {
+            "name": "Separator",
+            "scope": "keyword.separator",
+            "foreground": "rgb(250, 150, 90)",
+            "font_style": "italic",
+        },
+        {
+            "name": "Accessor",
+            "scope": "punctuation.accessor",
+            "foreground": "rgb(250, 150, 90)",
+            "font_style": "italic",
+        },
+        {
+            "name": "Terminator",
+            "scope": "punctuation.terminator",
+            "foreground": "rgb(250, 150, 90)",
+            "font_style": "italic",
+        },
+        {
+            "name": "Control",
+            "scope": "keyword.control",
+            "foreground": "rgb(80, 150, 190)",
+            "font_style": "italic",
+        },
+        {
+            "name": "VariableFunction",
+            "scope": "variable.function",
+            "foreground": "rgb(80, 150, 190)",
+        },
+        {
+            "name": "DeclarationFunction",
+            "scope": "keyword.declaration",
+            "foreground": "rgb(80, 150, 190)",
+        },
+        {
+            "name": "NameFunction",
+            "scope": "entity.name ",
+            "foreground": "rgb(80, 240, 190)",
+            "font_style": "bold",
+        },
+        {
+            "name": "StorageType",
+            "scope": "storage.type",
+            "foreground": "rgb(200, 250, 10)",
+            "font_style": "bold",
+        },
+        {
+            "name": "SupportFunction",
+            "scope": "support",
+            "foreground": "rgb(200, 50, 10)"
+        }
+
+    ]
+}
