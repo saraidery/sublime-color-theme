@@ -1,0 +1,101 @@
+{
+    "name": "Example Color Scheme",
+    "globals":
+    {
+        "background": "rgb(240, 240, 240)",
+        "foreground": "rgb(50, 50, 50)",
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "rgb(40, 110, 160)",
+            
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "rgb(20, 150, 150)",
+        },
+        {
+            "name": "NameFunction",
+            "scope": "entity.name ",
+            "foreground": "rgb(70, 160, 230)",
+        },
+        {
+            "name": "Control",
+            "scope": "keyword.control",
+            "foreground": "rgb(180, 0, 90)"
+        },
+        {
+            "name": "DeclarationFunction",
+            "scope": "keyword.declaration",
+            "foreground": "rgb(220, 150, 180)"
+        },
+        {
+            "name": "StorageType",
+            "scope": "storage.type",
+            "foreground": "rgb(220, 100, 125)",
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "rgb(255, 120, 0)",
+            "font_style": "italic",
+        },
+        {
+            "name": "Operator",
+            "scope": "keyword.operator",
+            "foreground": "rgb(250, 10, 90)",
+            "font_style": "italic",
+        },
+        {
+            "name": "StorageModifier",
+            "scope": "storage.modifier",
+            "foreground": "rgb(240, 180, 20)",
+            "font_style": "italic",
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.separator",
+            "foreground": "rgb(50, 50, 50)",
+        },
+        {
+            "name": "Separator",
+            "scope": "keyword.separator",
+            "foreground": "rgb(250, 240, 75)",
+        },
+        {
+            "name": "Accessor",
+            "scope": "punctuation.accessor",
+            "foreground": "rgb(255, 10, 90)",
+        },
+        {
+            "name": "Terminator",
+            "scope": "punctuation.terminator",
+            "foreground": "rgb(250, 150, 90)",
+        },
+        {
+            "name": "VariableFunction",
+            "scope": "variable.function",
+            "foreground": "rgb(50, 50, 50)",
+        },
+        {
+            "name": "SupportFunction",
+            "scope": "support",
+            "foreground": "rgb(200, 50, 10)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable.other",
+            "foreground": "rgb(50, 50, 50)"
+        },
+        {
+            "name": "ConstantLanguage",
+            "scope": "constant.language",
+            "foreground": "rgb(0, 180, 20)"
+        }
+
+    ]
+}
