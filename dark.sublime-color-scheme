@@ -2,32 +2,33 @@
     "name": "Light",
     "globals":
     {
-        "background": "rgb(240, 240, 240)",
-        "foreground": "rgb(50, 50, 50)",
+        "background": "rgb(40, 40, 40)",
+        "foreground": "rgb(230, 230, 230)",
+        "selection": "rgb(130, 130, 130)",
+        "highlight": "rgb(200, 200, 200)",
+        "find_highlight": "rgb(200, 200, 200)",
+        "find_highlight_foreground": "rgb(20, 20, 20)",
+        "line_diff_width": "5",
+        "caret": "white"
     },
     "rules":
     [
         {
             "name": "Comment",
             "scope": "comment",
-            "foreground": "rgb(40, 110, 160)",
+            "foreground": "rgb(170, 170, 170)",
             
         },
         {
             "name": "String",
             "scope": "string",
-            "foreground": "rgb(20, 150, 150)",
-        },
-        {
-            "name": "NameFunction",
-            "scope": "entity.name ",
-            "foreground": "rgb(70, 160, 230)",
+            "foreground": "rgb(255, 250, 90)",
         },
 
         {
-            "name": "Control",
-            "scope": "keyword.control",
-            "foreground": "rgb(180, 0, 90)"
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "rgb(255, 250, 90)",
         },
         {
             "name": "DeclarationFunction",
@@ -40,10 +41,9 @@
             "foreground": "rgb(35, 200, 235)",
         },
         {
-            "name": "Number",
-            "scope": "constant.numeric",
-            "foreground": "rgb(255, 120, 0)",
-            "font_style": "italic",
+            "name": "StorageType",
+            "scope": "storage.type",
+            "foreground": "rgb(100, 240, 125)",
         },
         {
             "name": "Control",
@@ -53,13 +53,12 @@
         {
             "name": "StorageModifier",
             "scope": "storage.modifier",
-            "foreground": "rgb(240, 180, 20)",
-            "font_style": "italic",
+            "foreground": "rgb(255, 150, 0)",
         },
         {
-            "name": "Punctuation",
-            "scope": "punctuation.separator",
-            "foreground": "rgb(50, 50, 50)",
+            "name": "intrinsicFunction",
+            "scope": "variable.function.subroutine.intrinsic",
+            "foreground": "rgb(200, 150, 255)"
         },
         {
             "name": "intrinsicFunction",
@@ -95,9 +94,9 @@
         },
 
         {
-            "name": "VariableFunction",
-            "scope": "variable.function",
-            "foreground": "rgb(50, 50, 50)",
+            "name": "Operator",
+            "scope": "keyword.operator",
+            "foreground": "rgb(200, 150, 255)",
         },
 
         {
@@ -105,16 +104,7 @@
             "scope": "support",
             "foreground": "rgb(0, 255, 220)"
         },
-        {
-            "name": "Variable",
-            "scope": "variable.other",
-            "foreground": "rgb(50, 50, 50)"
-        },
-        {
-            "name": "ConstantLanguage",
-            "scope": "constant.language",
-            "foreground": "rgb(0, 180, 20)"
-        }
 
     ]
 }
+
