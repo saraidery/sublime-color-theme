@@ -4,6 +4,11 @@
     {
         "background": "rgb(240, 240, 240)",
         "foreground": "rgb(50, 50, 50)",
+        "selection": "rgb(200, 200, 200)",
+        "highlight": "rgb(200, 200, 200)",
+        "find_highlight": "rgb(200, 200, 200)",
+        "find_highlight_foreground": "rgb(20, 80, 90)",
+         "line_diff_width": "5",
     },
     "rules":
     [
@@ -11,7 +16,7 @@
             "name": "Comment",
             "scope": "comment",
             "foreground": "rgb(40, 110, 160)",
-            
+
         },
         {
             "name": "String",
@@ -19,25 +24,19 @@
             "foreground": "rgb(20, 150, 150)",
         },
         {
-            "name": "NameFunction",
-            "scope": "entity.name ",
-            "foreground": "rgb(70, 160, 230)",
-        },
-
-        {
             "name": "Control",
             "scope": "keyword.control",
             "foreground": "rgb(180, 0, 90)"
         },
         {
-            "name": "DeclarationFunction",
-            "scope": "keyword.declaration",
-            "foreground": "rgb(255, 125, 185)"
+            "name": "NameFunction",
+            "scope": "entity.name",
+            "foreground": "rgb(70, 190, 20)",
         },
         {
-            "name": "NameFunction",
-            "scope": "entity.name ",
-            "foreground": "rgb(35, 200, 235)",
+            "name": "DeclarationFunction",
+            "scope": "keyword.declaration",
+            "foreground": "rgb(220, 10, 100)"
         },
         {
             "name": "Number",
@@ -57,41 +56,46 @@
             "font_style": "italic",
         },
         {
+            "name": "NameFunction",
+            "scope": "entity.name ",
+            "foreground": "rgb(35, 200, 235)",
+        },
+        {
             "name": "Punctuation",
             "scope": "punctuation.separator",
             "foreground": "rgb(50, 50, 50)",
         },
         {
+            "name": "Accessor",
+            "scope": "punctuation.accessor",
+            "foreground": "rgb(90, 200, 0)",
+        },
+        {
+            "name": "Separator",
+            "scope": "punctuation.separator",
+            "foreground": "rgb(255, 120, 0)",
+        },
+        {
             "name": "intrinsicFunction",
             "scope": "variable.function.function.intrinsic",
-            "foreground": "rgb(200, 150, 255)"
+            "foreground": "rgb(90, 200, 0)"
         },
 
         {
             "name": "ConstantLanguage",
             "scope": "constant.language",
-            "foreground": "rgb(200, 150, 255)"
-        },
-        {
-            "name": "Accessor",
-            "scope": "punctuation.accessor",
-            "foreground": "rgb(160, 200, 250)",
-        },
-        {
-            "name": "Separator",
-            "scope": "punctuation.separator",
-            "foreground": "rgb(220, 220, 220)",
+            "foreground": "rgb(90, 200, 0)"
         },
         {
             "name": "Intent",
-            "scope": "keyword.other.intent", 
+            "scope": "keyword.other.intent",
             "foreground": "rgb(255, 125, 185)",
         },
 
         {
             "name": "Terminator",
             "scope": "punctuation.terminator",
-            "foreground": "rgb(220, 220, 220)",
+            "foreground": "rgb(50, 50, 50)",
         },
 
         {
