@@ -1,101 +1,109 @@
 {
-    "name": "Example Color Scheme",
+    "name": "Light",
     "globals":
     {
-        "background": "rgb(50, 50, 50)",
-        "foreground": "rgb(200, 200, 200)",
+        "background": "rgb(40, 40, 40)",
+        "foreground": "rgb(230, 230, 230)",
+        "selection": "rgb(130, 130, 130)",
+        "highlight": "rgb(200, 200, 200)",
+        "find_highlight": "rgb(200, 200, 200)",
+        "find_highlight_foreground": "rgb(20, 20, 20)",
+        "line_diff_width": "5",
+        "caret": "white"
     },
     "rules":
     [
         {
             "name": "Comment",
             "scope": "comment",
-            "foreground": "rgb(170, 200, 225)",
+            "foreground": "rgb(170, 170, 170)",
             
         },
         {
             "name": "String",
             "scope": "string",
-            "foreground": "rgb(140, 230, 255)",
+            "foreground": "rgb(255, 250, 90)",
         },
+
         {
-            "name": "NameFunction",
-            "scope": "entity.name ",
-            "foreground": "rgb(70, 160, 230)",
-        },
-        {
-            "name": "Control",
-            "scope": "keyword.control",
-            "foreground": "rgb(220, 150, 180)"
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "rgb(255, 250, 90)",
         },
         {
             "name": "DeclarationFunction",
             "scope": "keyword.declaration",
-            "foreground": "rgb(220, 150, 180)"
+            "foreground": "rgb(255, 125, 185)"
+        },
+        {
+            "name": "NameFunction",
+            "scope": "entity.name ",
+            "foreground": "rgb(35, 200, 235)",
         },
         {
             "name": "StorageType",
             "scope": "storage.type",
-            "foreground": "rgb(220, 100, 125)",
+            "foreground": "rgb(100, 240, 125)",
         },
         {
-            "name": "Number",
-            "scope": "constant.numeric",
-            "foreground": "rgb(250, 120, 80)",
-            "font_style": "italic",
-        },
-        {
-            "name": "Operator",
-            "scope": "keyword.operator",
-            "foreground": "rgb(250, 10, 90)",
-            "font_style": "italic",
+            "name": "Control",
+            "scope": "keyword.control",
+            "foreground": "rgb(255, 50, 60)"
         },
         {
             "name": "StorageModifier",
             "scope": "storage.modifier",
-            "foreground": "rgb(250, 240, 75)",
-            "font_style": "italic",
+            "foreground": "rgb(255, 150, 0)",
         },
         {
-            "name": "Punctuation",
-            "scope": "punctuation.separator",
-            "foreground": "rgb(250, 250, 250)",
+            "name": "intrinsicFunction",
+            "scope": "variable.function.subroutine.intrinsic",
+            "foreground": "rgb(200, 150, 255)"
         },
         {
-            "name": "Separator",
-            "scope": "keyword.separator",
-            "foreground": "rgb(250, 240, 75)",
+            "name": "intrinsicFunction",
+            "scope": "variable.function.function.intrinsic",
+            "foreground": "rgb(200, 150, 255)"
+        },
+
+        {
+            "name": "ConstantLanguage",
+            "scope": "constant.language",
+            "foreground": "rgb(200, 150, 255)"
         },
         {
             "name": "Accessor",
             "scope": "punctuation.accessor",
-            "foreground": "rgb(255, 10, 90)",
+            "foreground": "rgb(160, 200, 250)",
         },
+        {
+            "name": "Separator",
+            "scope": "punctuation.separator",
+            "foreground": "rgb(220, 220, 220)",
+        },
+        {
+            "name": "Intent",
+            "scope": "keyword.other.intent", 
+            "foreground": "rgb(255, 125, 185)",
+        },
+
         {
             "name": "Terminator",
             "scope": "punctuation.terminator",
-            "foreground": "rgb(250, 150, 90)",
+            "foreground": "rgb(220, 220, 220)",
         },
+
         {
-            "name": "VariableFunction",
-            "scope": "variable.function",
-            "foreground": "rgb(250, 250, 250)",
+            "name": "Operator",
+            "scope": "keyword.operator",
+            "foreground": "rgb(200, 150, 255)",
         },
+
         {
             "name": "SupportFunction",
             "scope": "support",
-            "foreground": "rgb(200, 50, 10)"
+            "foreground": "rgb(0, 255, 220)"
         },
-        {
-            "name": "Variable",
-            "scope": "variable.other",
-            "foreground": "rgb(250, 250, 250)"
-        },
-        {
-            "name": "ConstantLanguage",
-            "scope": "constant.language",
-            "foreground": "rgb(90, 250, 160)"
-        }
 
     ]
 }
