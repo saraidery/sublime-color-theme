@@ -9,7 +9,8 @@
         "find_highlight": "rgb(200, 200, 200)",
         "find_highlight_foreground": "rgb(20, 20, 20)",
         "line_diff_width": "5",
-        "caret": "white"
+        "caret": "white",
+        "line_highlight": "rgb(70, 70, 70)"
     },
     "rules":
     [
